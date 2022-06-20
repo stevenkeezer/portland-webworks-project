@@ -21,7 +21,7 @@ export default function Hero() {
                 Providing independent research, analysis, and resources to
                 facilitate informed policy decisions and
               </span>
-              <span> administration of services</span>
+              <span>administration of services</span>
             </h1>
 
             <div className="mx-auto pt-7 sm:flex sm:justify-center sm:px-24 md:max-w-none">
