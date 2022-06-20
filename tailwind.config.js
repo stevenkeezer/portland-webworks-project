@@ -35,7 +35,7 @@ module.exports = {
         'roboto-cond': ['Roboto Condensed', 'sans-serif'],
       },
       screens: {
-        xs: '200px',
+        xs: '300px',
       },
       colors: {
         gray: {
