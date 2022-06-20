@@ -13,8 +13,6 @@ export default function Hero() {
             <Image
               objectFit="cover"
               layout="fill"
-              height={386}
-              width={1440}
               className="h-full w-full"
               src="/landing-banner.jpg"
               alt=""
