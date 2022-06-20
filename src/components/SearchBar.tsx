@@ -29,7 +29,7 @@ export default function SearchBar({ className }: { className?: string }) {
       <button
         className={classNames(
           className || 'focus:ring-white',
-          'block border border-transparent bg-blue-500 py-3 px-5 text-white ring-blue-500 transition-all duration-200 focus:outline-none active:ring-2 sm:hidden'
+          'block border border-transparent bg-blue-500 py-3 px-5 text-white ring-blue-500 transition-color duration-200 focus:outline-none active:ring-2 sm:hidden'
         )}
       >
         <span className="hidden sm:block">Search</span>

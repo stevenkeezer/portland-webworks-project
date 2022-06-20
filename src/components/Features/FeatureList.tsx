@@ -2,7 +2,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid';
 
 export default function FeatureList({ features }: { features: any[] }) {
   return (
-    <div className="xs:p-6 grid grid-cols-1 gap-2 p-4 py-6 sm:grid-cols-2">
+    <div className="xs:p-6 grid grid-cols-1 gap-2 p-4 p-4 py-6 sm:grid-cols-2">
       {features.map((feature, index) => (
         <div
           tabIndex={0}

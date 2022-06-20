@@ -1,8 +1,17 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
+    },
+    theme: {
+      screens: {
+        xs: '330px',
+        ...defaultTheme.screens,
+      },
     },
     colors: {
       transparent: 'transparent',
@@ -33,9 +42,6 @@ module.exports = {
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],
         'roboto-cond': ['Roboto Condensed', 'sans-serif'],
-      },
-      screens: {
-        xs: '300px',
       },
       colors: {
         gray: {
