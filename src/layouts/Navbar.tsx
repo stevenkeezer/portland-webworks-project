@@ -31,7 +31,7 @@ export default function Navbar() {
                 alt="Workflow"
               />
             </div>
-            <div className="flex items-center pl-2 sm:pl-3.5">
+            <div className="xs:pb-0.5 flex items-center pl-2  sm:pl-3.5">
               <div className="flex flex-col">
                 <div className="pb-1 font-roboto text-[.65rem] font-bold uppercase leading-3 text-blue-700 transition-all duration-300 sm:pb-1.5  md:text-lg md:leading-6">
                   South Carolina
