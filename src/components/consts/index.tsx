@@ -116,7 +116,7 @@ export const services = [
     email: 'leslie.alexander@example.com',
     role: 'Co-Founder / CEO',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         Updated
       </span>
     ),
@@ -134,7 +134,7 @@ export const updates = [
     time: '1d ago',
     datetime: '2021-01-27T16:35',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         Updated
       </span>
     ),
@@ -148,7 +148,7 @@ export const updates = [
     time: '1d ago',
     datetime: '2021-01-27T16:35',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         New
       </span>
     ),
@@ -163,7 +163,7 @@ export const updates = [
     time: '1d ago',
     datetime: '2021-01-27T16:35',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         Updated
       </span>
     ),
@@ -177,7 +177,7 @@ export const updates = [
     time: '1d ago',
     datetime: '2021-01-27T16:35',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         New
       </span>
     ),
@@ -191,7 +191,7 @@ export const updates = [
     time: '1d ago',
     datetime: '2021-01-27T16:35',
     badge: (
-      <span className="inline-flex h-5 items-center rounded bg-gray-700 px-2 text-xs font-medium text-white">
+      <span className="inline-flex items-center rounded bg-gray-700 py-0.5 px-2 text-xs font-bold text-white">
         New
       </span>
     ),
