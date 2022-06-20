@@ -1,11 +1,19 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700;
+  @apply text-blue-500 underline;
 }
 
-a:hover {
-  @apply border-b-2 border-blue-700;
+main a:hover {
+  @apply text-blue-600;
+}
+
+h2 {
+  @apply text-2xl sm:text-3xl uppercase font-bold text-blue-800;
+}
+
+h3 {
+  @apply text-2xl sm:text-3xl font-bold;
 }
 
 @tailwind components;
@@ -13,9 +21,22 @@ a:hover {
 @tailwind utilities;
 
 .content p {
-  @apply my-6;
+  @apply my-1;
 }
 
-.content ul {
-  @apply my-6;
+ 
+.pw-btn {
+  @apply cursor-pointer active:ring mt-3 mx-auto justify-center inline-flex w-full border border-transparent font-bold bg-blue-500 px-6 py-3 text-sm uppercase text-white shadow-sm focus:outline-none transition-all duration-100 focus:ring-2 focus:ring-offset-2 sm:mt-0 sm:inline-flex sm:w-auto sm:shrink-0 sm:items-center;
+}
+
+.pw-btn-stroke {
+  @apply cursor-pointer mt-3 w-full border border-white text-sm font-medium px-6 py-2 uppercase text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 sm:mt-0 sm:inline-flex sm:w-auto sm:shrink-0 sm:items-center;
+}
+
+.pw-events li {
+  @apply flex items-start;
+}
+
+.pw-events span {
+  @apply pl-2;
 }
