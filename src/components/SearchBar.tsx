@@ -17,7 +17,7 @@ export default function SearchBar({ className }: { className?: string }) {
         type="text"
         name="search"
         id="search"
-        className="block w-full px-4 text-base shadow-inner transition-opacity duration-300 placeholder:italic placeholder:text-gray-700 focus:border-blue-500 focus:border-opacity-60 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 sm:mr-3 sm:flex-1"
+        className="block w-full px-4 text-base shadow-inner duration-300 placeholder:italic placeholder:text-gray-700 focus:border-blue-500 focus:border-opacity-60 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:transition-all sm:mr-3 sm:flex-1"
         placeholder="Search rfa.sc.gov"
       />
       <div className="hidden sm:block">
