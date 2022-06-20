@@ -71,7 +71,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="xs:px-6 mx-auto max-w-7xl px-4 lg:px-8">
               <div className="mx-auto max-w-6xl text-blue-800">
                 <Services />
                 <div className="py-10 lg:py-24">
