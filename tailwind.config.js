@@ -34,6 +34,9 @@ module.exports = {
         roboto: ['Roboto Slab', 'serif'],
         'roboto-cond': ['Roboto Condensed', 'sans-serif'],
       },
+      screens: {
+        xs: '300px',
+      },
       colors: {
         gray: {
           100: '#f7fafc',
