@@ -37,7 +37,7 @@ export default function Navbar() {
                   South Carolina
                   <div>Revenue and Fiscal Affairs Office</div>
                 </div>
-                <div className="pt-0.5 text-[.65rem] italic leading-[.6rem] text-blue-800 sm:pt-0 md:text-sm">
+                <div className="pt-0.5 text-[.65rem] italic leading-[.65rem] text-blue-800 sm:pt-0 md:text-sm">
                   <span className="hidden xs:block">
                     Transforming data into solutions for South Carolina
                   </span>
