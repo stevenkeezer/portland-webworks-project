@@ -14,7 +14,7 @@ export default function SearchBar({ className }: { className?: string }) {
       className="mt-3 flex w-full px-4 pb-2 sm:max-w-2xl sm:px-0 sm:pb-0"
     >
       <input
-        type="search"
+        type="text"
         name="search"
         id="search"
         className="block w-full px-4 text-base shadow-inner transition-all duration-300 placeholder:italic placeholder:text-gray-700 focus:border-blue-500 focus:border-opacity-60 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 sm:mr-3 sm:flex-1"
