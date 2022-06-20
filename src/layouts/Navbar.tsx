@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center pl-2 sm:pl-3.5">
               <div className="flex flex-col">
-                <div className="font-roboto text-[.65rem] font-bold uppercase leading-3 text-blue-700 transition-all duration-300  md:text-lg md:leading-6">
+                <div className="pb-1.5 font-roboto text-[.65rem] font-bold uppercase leading-3 text-blue-700 transition-all duration-300 md:text-lg  md:leading-6 xs:pb-0">
                   South Carolina
                   <div>Revenue and Fiscal Affairs Office</div>
                 </div>
