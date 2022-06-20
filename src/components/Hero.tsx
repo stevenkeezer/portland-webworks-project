@@ -16,7 +16,7 @@ export default function Hero() {
             />
           </div>
           <div className="relative -mt-4 px-4 py-16 sm:px-6 sm:py-[6.1rem] lg:px-8">
-            <h1 className="xs:text-2xl xs:leading-7 text-center text-xl font-semibold leading-6 tracking-tight text-white sm:text-3xl lg:text-3xl lg:leading-9">
+            <h1 className="xs:text-2xl xs:leading-7 text-center text-xl font-semibold leading-7 tracking-tight text-white sm:text-3xl sm:leading-9 lg:text-3xl">
               <span className="mx-auto block max-w-[45rem]">
                 Providing independent research, analysis, and resources to
                 facilitate informed policy decisions and
