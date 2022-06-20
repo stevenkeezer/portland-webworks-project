@@ -43,7 +43,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto w-full px-6 pt-12 sm:px-6 lg:px-24 lg:pt-10">
+      <div className="xs:px-6 mx-auto w-full px-4 pt-12 sm:px-6 lg:px-24 lg:pt-10">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="text-xl font-bold text-white xl:col-span-1">
             <div className="flex flex-col -space-y-1">
