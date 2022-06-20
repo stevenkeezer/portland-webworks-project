@@ -15,8 +15,8 @@ export default function Hero() {
               alt=""
             />
           </div>
-          <div className="relative -mt-4 px-4 py-16 sm:px-6 sm:py-[6.1rem] lg:px-8">
-            <h1 className="xs:text-2xl xs:leading-7 text-center text-xl font-semibold leading-7 tracking-tight text-white sm:text-3xl sm:leading-9 lg:text-3xl">
+          <div className="xs:py-16 relative -mt-4 py-8 px-4 sm:px-6 sm:py-[6.1rem] lg:px-8">
+            <h1 className="xs:leading-7 xs:text-2xl text-center text-xl font-semibold leading-7 tracking-tight text-white sm:text-3xl sm:leading-9 lg:text-3xl">
               <span className="mx-auto block max-w-[45rem]">
                 Providing independent research, analysis, and resources to
                 facilitate informed policy decisions and
@@ -24,7 +24,7 @@ export default function Hero() {
               <span>administration of services</span>
             </h1>
 
-            <div className="mx-auto pt-7 sm:flex sm:justify-center sm:px-24 md:max-w-none">
+            <div className="xs:px-16 mx-auto pt-7 sm:flex sm:justify-center sm:px-20 md:max-w-none md:px-24">
               <SearchBar />
             </div>
           </div>
