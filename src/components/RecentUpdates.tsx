@@ -13,7 +13,7 @@ export default function RecentUpdates() {
                 <a
                   tabIndex={0}
                   href="#"
-                  className="block text-lg font-bold text-blue-600 ring-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                  className="block text-lg font-bold text-blue-500 ring-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
                   {update.sender}
