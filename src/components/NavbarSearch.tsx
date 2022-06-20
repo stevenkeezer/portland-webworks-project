@@ -44,7 +44,6 @@ export default function NavbarSearch() {
                       />
                     </div>
                   </Popover.Button>
-
                   <Transition
                     as={Fragment}
                     enter="transition ease-out duration-200"
