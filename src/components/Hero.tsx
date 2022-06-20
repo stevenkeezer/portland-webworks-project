@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 
 import SearchBar from './SearchBar';
@@ -10,10 +9,8 @@ export default function Hero() {
       <div className="mx-auto">
         <div className="relative sm:overflow-hidden">
           <div className="absolute inset-0">
-            <Image
-              objectFit="cover"
-              layout="fill"
-              className="h-full w-full"
+            <img
+              className="h-full w-full object-cover"
               src="/landing-banner.jpg"
               alt=""
             />
