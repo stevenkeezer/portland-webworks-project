@@ -60,7 +60,7 @@ export default function Navbar() {
                   >
                     <span
                       tabIndex={0}
-                      className="cursor-pointer text-sm uppercase text-blue-800 active:underline"
+                      className="cursor-pointer text-sm uppercase text-blue-800 hover:underline active:text-blue-600"
                     >
                       {item.name}
                     </span>
