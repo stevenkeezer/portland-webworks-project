@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <div className="mx-auto pr-3">
         <div className="relative flex h-[4.1rem] items-center justify-between transition-all duration-300 md:h-[6.9rem]">
-          <div className="flex flex-1 items-start justify-start pl-2 transition-all duration-200 sm:items-stretch md:pl-5">
+          <div className="flex flex-1 items-center justify-start pl-2 transition-all duration-200 sm:items-stretch md:pl-5">
             <div tabIndex={0} className="flex shrink-0 items-center">
               <img
                 className="block h-[3.2rem] w-auto cursor-pointer transition-all duration-200 hover:opacity-70 focus:border-2 md:h-[5.3rem]"
@@ -31,13 +31,13 @@ export default function Navbar() {
                 alt="Workflow"
               />
             </div>
-            <div className="flex items-center pl-2 sm:pb-0.5  sm:pl-3.5">
+            <div className="flex items-center pl-2 sm:pl-3.5">
               <div className="flex flex-col">
-                <div className="pb-1 font-roboto text-[.65rem] font-bold uppercase leading-3 text-blue-700 transition-all duration-300 sm:pb-1.5  md:text-lg md:leading-6">
+                <div className="pb-1 font-roboto text-[.65rem] font-bold uppercase leading-3 text-blue-700 transition-all duration-300  md:text-lg md:leading-6">
                   South Carolina
                   <div>Revenue and Fiscal Affairs Office</div>
                 </div>
-                <div className=" text-[.65rem] italic leading-[.65rem] text-blue-800 sm:pt-0 md:text-sm">
+                <div className="text-[.65rem] italic leading-[.65rem] text-blue-800 sm:pt-0.5 md:text-sm">
                   <span>
                     Transforming data into solutions for South Carolina
                   </span>
