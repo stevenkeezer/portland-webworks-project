@@ -11,9 +11,9 @@ export default function CalendarEvents() {
     <div className="pw-events">
       <h3>Calendar of Events</h3>
       <div className="my-4 h-[.2rem] w-12 bg-yellow-400"></div>
-      <ul role="list" className="py-4 pt-2 sm:pt-4">
+      <ul role="list" className="py-4 pt-2 sm:pt-7">
         {events.map((event, index) => (
-          <li key={event.name + index} className="py-2">
+          <li key={event.name + index} className="pb-2">
             <div className="flex gap-x-5">
               <div className="flex h-[4.5rem] w-16  shrink-0 flex-col items-center justify-center -space-y-2 bg-yellow-400 font-bold text-white">
                 <div>Nov</div>
