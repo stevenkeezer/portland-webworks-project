@@ -85,7 +85,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="group flex cursor-pointer items-center justify-end py-8 sm:p-6 sm:py-0">
+              <div className="group flex cursor-pointer items-center justify-end py-8 sm:p-6 sm:pb-6">
                 Back to Top
                 <ChevronUpIcon className="ml-3 h-8 w-8 rounded-full bg-blue-600 bg-opacity-80 p-1 text-white group-hover:bg-gray-500" />
               </div>
