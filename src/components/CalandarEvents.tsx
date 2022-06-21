@@ -11,7 +11,7 @@ export default function CalendarEvents() {
     <div className="pw-events">
       <h3>Calendar of Events</h3>
       <div className="my-4 h-[.2rem] w-12 bg-yellow-400"></div>
-      <ul role="list" className="py-4">
+      <ul role="list" className="py-4 pt-2 sm:pt-4">
         {events.map((event, index) => (
           <li key={event.name + index} className="py-2">
             <div className="flex gap-x-5">
@@ -49,6 +49,7 @@ export default function CalendarEvents() {
           </li>
         ))}
       </ul>
+
       <button type="submit" className="pw-btn ring-blue-600">
         View All Events
       </button>

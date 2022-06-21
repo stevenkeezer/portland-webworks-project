@@ -5,7 +5,7 @@ export default function RecentUpdates() {
     <div>
       <h3>Recent Updates</h3>
       <div className="my-4 h-[.2rem] w-12 bg-yellow-400"></div>
-      <ul role="list" className="pb-6 pt-2">
+      <ul role="list" className="pb-6 sm:pt-2">
         {updates.map((update, index) => (
           <li key={update.id + index} className="relative bg-white py-3">
             <div className="flex justify-between space-x-3">
@@ -31,6 +31,7 @@ export default function RecentUpdates() {
           </li>
         ))}
       </ul>
+
       <button type="submit" className="pw-btn ring-blue-600">
         View More
       </button>

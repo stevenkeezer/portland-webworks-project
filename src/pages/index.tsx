@@ -71,7 +71,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="xs:px-6 mx-auto max-w-7xl px-4 lg:px-8">
+            <div className="mx-auto max-w-7xl px-4 xs:px-6 lg:px-8">
               <div className="mx-auto max-w-6xl text-blue-800">
                 <Services />
                 <div className="py-10 lg:py-24">
@@ -86,7 +86,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="flex max-w-7xl cursor-pointer items-center justify-end p-4 pb-8 text-blue-500 underline hover:text-blue-700 lg:px-8">
+            <div className="flex max-w-7xl cursor-pointer items-center justify-end p-5 pb-8 text-blue-500 underline hover:text-blue-700 lg:px-8">
               <div className="group flex items-center">
                 Back to Top
                 <ChevronUpIcon className="ml-3 h-8 w-8 rounded-full bg-blue-600 bg-opacity-80 p-1 text-white group-hover:bg-gray-500" />
