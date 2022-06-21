@@ -19,7 +19,7 @@ export default function FeatureList({ features }: { features: any[] }) {
               className="uppercase no-underline focus:outline-none"
             >
               <span className="absolute inset-0" aria-hidden="true" />
-              <p className="text-sm font-medium text-gray-900">
+              <p className="xs:text-base text-sm font-medium text-blue-800">
                 {feature.name}
               </p>
             </a>

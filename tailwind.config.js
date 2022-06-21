@@ -7,11 +7,9 @@ module.exports = {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
     },
-    theme: {
-      screens: {
-        xs: '475px',
-        ...defaultTheme.screens,
-      },
+    screens: {
+      xs: '475px',
+      ...defaultTheme.screens,
     },
     colors: {
       transparent: 'transparent',
