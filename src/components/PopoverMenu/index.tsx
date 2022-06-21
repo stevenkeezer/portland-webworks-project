@@ -34,7 +34,7 @@ export default function PopoverMenu() {
                     <span>Close</span>
                   </div>
                 ) : (
-                  <div className="mx-auto flex flex-col text-[.5rem] font-bold uppercase tracking-widest text-white sm:text-[.6rem]">
+                  <div className="mx-auto flex flex-col text-[.5rem] font-bold uppercase text-white sm:text-[.6rem] sm:tracking-widest">
                     <MenuIcon
                       className="-mb-1 block h-8 w-8 sm:h-12 sm:w-12"
                       aria-hidden="true"

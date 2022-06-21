@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <div className="mx-auto pr-3">
         <div className="relative flex h-[4.1rem] items-center justify-between transition-all duration-300 md:h-[6.9rem]">
-          <div className="flex flex-1  items-center justify-start pt-1 pl-2 transition-all duration-200 sm:items-stretch sm:pt-0 md:pl-5">
+          <div className="flex flex-1 items-start justify-start pl-2 transition-all duration-200 sm:items-stretch md:pl-5">
             <div tabIndex={0} className="flex shrink-0 items-center">
               <img
                 className="block h-[3.2rem] w-auto cursor-pointer transition-all duration-200 hover:opacity-70 focus:border-2 md:h-[5.3rem]"
